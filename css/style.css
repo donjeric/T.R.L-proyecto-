@@ -617,16 +617,29 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
-    text-align: center;
-    
-    
+    text-align: center;    
 }
+.grid-3 h3{
+    cursor: pointer;
+    color: var(--white);
+    } 
+.grid-3 h3:hover{
+    color: var(--orange);
+        
+    }
 .grid-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
      text-align:center;  
 }
+.grid-2 h3{
+    cursor: pointer; 
+}
+    .grid-2 h3:hover{
+        color: var(--orange);
+    }
+    
 .text-center{
     text-align: center;
     margin: auto;
